@@ -1,4 +1,4 @@
 language: java
 jdk:
  - openjdk8
-script: ant build && ant test
+script: ant build && ant testPoint && ant testTriangle
