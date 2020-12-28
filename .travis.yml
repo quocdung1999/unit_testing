@@ -1,4 +1,4 @@
 language: java
 jdk:
  - openjdk14
-script: ant build && ant TestRunner
+script: ant build && ant TestPoint && ant TestTriangle
