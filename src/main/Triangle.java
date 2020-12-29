@@ -27,10 +27,10 @@ public class Triangle {
 		double AB = pointA.distance(pointB);
 		double AC = pointA.distance(pointC);
 		double BC = pointB.distance(pointC);
-		System.out.println("AB = "+AB);
-		System.out.println("AC = "+AC);
-		System.out.println("BC = "+BC);
-		System.out.println();
+//		System.out.println("AB = "+AB);
+//		System.out.println("AC = "+AC);
+//		System.out.println("BC = "+BC);
+//		System.out.println();
 		if (AB >= AC + BC || AC >= AB +BC || BC >= AB + AC)
 		{
 			result = "Đây không phải là tam giác";
